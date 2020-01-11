@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding:1px;
+}
+
+.left{
+  width: 12.5%;
+  height: 100%;
+}
+
+.middle {
+  width: 62.5%;
+  height: 65%;
+}
+.right{
+  width: 25%;
+  height: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+<h1 align=center>SPICE IT UP</h1>
+  <div class="column left" style="background-color:#aaa;">
+  	<div class="row top">
+    <p style="font-size:15px;"align=center>Food By Country</p>
+    </div>
+    <div class="row second" style="border:solid;">
+    <p align=center>Italy</p>
+    </div>
+    <div class="row third" style="border:solid;">
+    <p align=center>France</p>
+    </div>
+    <div class="row forth" style="border:solid;">
+    <p align=center>India</p>
+    </div>
+    <div class="row fifth" style="border:solid;">
+    <p align=center>Japan</p>
+    </div>
+    <div class="row sixth" style="border:solid;">
+    <p align=center>America</p>
+    </div>
+    <div class="row seventh" style="border:solid;">
+    <p align=center>Mexico</p>
+    </div>
+    <div class="row eighth" style="border:solid;">
+    <p align=center>Greece</p>
+    </div>
+    <div class="row ninth" style="border:solid;">
+    <p align=center>Thailand</p>
+    </div>
+    <div class="row tenth" style="border:solid;">
+    <p align=center>Portugal</p>
+    </div>
+  </div>
+  
+  <div class="column middle" style=" background-image: url('food.jpeg');background-repeat: no-repeat;
+  background-size: 100% 65%;">
+	<p style="font-size:100px;" align=center>Dish of the Day</p>
+    
+  </div>
+  
+  <div class="column right" style="background-color:#ccc;">
+  	<p align=center>Required Utensils</p>
+    
+  </div>
+
+</div>
+
+
+
+</body>
+
+
+</html>
+
