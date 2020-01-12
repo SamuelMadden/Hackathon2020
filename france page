@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+* {
+  box-sizing: border-box;
+}
+body{
+  background-image: url('insertitaly.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding:1px;
+}
+
+.left{
+  width: 12.5%;
+  height: 100%;
+}
+
+.middle {
+  width: 62.5%;
+  height: 50%;
+}
+.right{
+  
+  width: 25%;
+  height: 100%;
+}
+.heading{
+  height: 20%;
+}
+.content{
+  height: 80%;
+}
+.k{
+    float: left;
+    width:20%;
+}
+.j{
+    float: middle;
+    width:60%;
+}
+.l{
+    float: right;
+    width:20%;
+}
+
+
+img {
+  opacity: 0.9;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+</style>
+</head>
+<body>
+<div class="row">
+    <div class="row heading" background-image: url('SpiceItUpLogo.png'); background-repeat: no-repeat;background-attachment: fixed; background-size: 100% 100%;>
+        <div class="row k">
+        </div>
+        <div class="row j">
+            <img src="SpiceItUpHLogo.png" alt="Logo" style="width:60%;height:90%;" onclick="location.href='webpage.html';" style="cursor:pointer;">
+          </div>
+        <div class="row l">
+        </div>
+  <div class="row content">
+  <div class="column left" style="background-color:#aaa; background: rgba(76, 175, 80, 0.3);">
+  	<div class="row top">
+    <p style="font-size:25px; font-weight:700;"align=center>French Recipes</p>
+    </div>
+    <div class="row second" style="border:solid;" onclick="location.href='italy.html';" style="cursor:pointer;">
+    <p align=center> Kouign-Amann</p>
+    </div>
+    <div class="row third" style="border:solid;">
+    <p align=center>Buckwheat Crepes with Creamy Leeks and Baked Eggs</p>
+    </div>
+    <div class="row forth" style="border:solid;">
+    <p align=center> Ludo Lefebvre's Omelet</p>
+    </div>
+    <div class="row fifth" style="border:solid;">
+    <p align=center>The Loftiest Souffle</p>
+    </div>
+    <div class="row sixth" style="border:solid;">
+    <p align=center>Petit Trois's French Onion Soup</p>
+    </div>
+    <div class="row seventh" style="border:solid;">
+    <p align=center> Ratatouille</p>
+    </div>
+    <div class="row eighth" style="border:solid;">
+    <p align=center>Poulet Vallée d’Auge</p>
+    </div>
+    <div class="row ninth" style="border:solid;">
+    <p align=center>Pan-Roasted Chicken Paillard</p>
+    </div>
+  </div>
+  
+  <div class="column middle">
+
+	<p style="font-size:100px;" align=center>Let's Spice it Up! With France!</p>
+
+  </div>
+  
+  <div class="column right" style="background: rgba(76, 175, 80, 0.6);"">
+  	<p align=center style="font-size:60px;font-weight:700; color:#00b33c; text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">French</p>
+    <p align=center>The French have always been proud of their sophisticated way of cooking. Fertile soil 
+        provides fresh fruits, vegetables, herbs, grains, and meat, nearly year-round. The soil is also suitable for growing grapes,
+         which are used for making some of the finest wines in the world. Food and alcohol play important roles in French society—the way a person eats often reflects their French 
+         heritage, region of birth, social status, and health.</p>
+    
+  </div>
+  </div>
+
+</div>
+
+
+
+</body>
+
+
+</html>
+
