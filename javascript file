@@ -1,0 +1,12 @@
+var randomImage = new Array();
+
+randomImage[0] = "duck.jpg";
+randomImage[1] = "duck1.jpg";
+randomImage[2] = "duck2.jpg";
+randomImage[3] = "rome.jpg";
+
+
+function getRandomImage() { 
+var number = Math.floor(Math.random()*randomImage.length);
+document.write('<img src="'+randomImage[number]+'" />');
+}
