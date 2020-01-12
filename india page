@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+* {
+  box-sizing: border-box;
+}
+body{
+  background-image: url('insertitaly.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding:1px;
+}
+
+.left{
+  width: 12.5%;
+  height: 100%;
+}
+
+.middle {
+  width: 62.5%;
+  height: 50%;
+}
+.right{
+  
+  width: 25%;
+  height: 100%;
+}
+.heading{
+  height: 20%;
+}
+.content{
+  height: 80%;
+}
+.k{
+    float: left;
+    width:20%;
+}
+.j{
+    float: middle;
+    width:60%;
+}
+.l{
+    float: right;
+    width:20%;
+}
+
+
+img {
+  opacity: 0.9;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+</style>
+</head>
+<body>
+<div class="row">
+    <div class="row heading" background-image: url('SpiceItUpLogo.png'); background-repeat: no-repeat;background-attachment: fixed; background-size: 100% 100%;>
+        <div class="row k">
+        </div>
+        <div class="row j">
+            <img src="SpiceItUpHLogo.png" alt="Logo" style="width:60%;height:90%;" onclick="location.href='webpage.html';" style="cursor:pointer;">
+          </div>
+        <div class="row l">
+        </div>
+  <div class="row content">
+  <div class="column left" style="background-color:#aaa; background: rgba(76, 175, 80, 0.3);">
+  	<div class="row top">
+    <p style="font-size:25px; font-weight:700;"align=center>Indian Recipes</p>
+    </div>
+    <div class="row second" style="border:solid;" onclick="location.href='india.html';" style="cursor:pointer;">
+    <p align=center> Masala Dosa</p>
+    </div>
+    <div class="row third" style="border:solid;">
+    <p align=center>Chicken Tikka Masala</p>
+    </div>
+    <div class="row forth" style="border:solid;">
+    <p align=center> Mutton Bunny Chow</p>
+    </div>
+    <div class="row fifth" style="border:solid;">
+    <p align=center>Indian Leavened Flatbread (Naan)</p>
+    </div>
+    <div class="row sixth" style="border:solid;">
+    <p align=center>Goan Cod Curry</p>
+    </div>
+    <div class="row seventh" style="border:solid;">
+    <p align=center> Red Lentils with Green Mango (Malika Masoor Dal)</p>
+    </div>
+    <div class="row eighth" style="border:solid;">
+    <p align=center>Aloo Masala (South Indian Potatoes)</p>
+    </div>
+    <div class="row ninth" style="border:solid;">
+    <p align=center>Chicken and Prawn Curry</p>
+    </div>
+  </div>
+  
+  <div class="column middle">
+
+	<p style="font-size:100px;" align=center>Let's Spice it Up! With India!</p>
+
+  </div>
+  
+  <div class="column right" style="background: rgba(76, 175, 80, 0.6);"">
+  	<p align=center style="font-size:60px;font-weight:700; color:#00b33c; text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Indian</p>
+    <p align=center>Indian Cuisine reflects an 8,000-year history of various groups and cultures. Indian Cuisine is known for being diverse, ancient, and steeped in tradition. India is known to be one of the largest countries 
+        in the world, but in history, it has dealt with other cultures and they have also influenced Indian Cuisine. Known to have the most varied foods 
+        it is characterised by its subtle and sophisticated use of the many vegetables, grains, fruits, and spices that grow across the country.</p>
+    
+  </div>
+  </div>
+
+</div>
+
+
+
+</body>
+
+
+</html>
+
