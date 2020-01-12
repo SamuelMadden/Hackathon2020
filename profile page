@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       .column{
+           float: left;
+           padding:1x;
+       }
+       .left, .right{
+        width: 25%;
+        height: 100%;
+       }
+       .middle{
+           width:50%;
+           height:100%;
+       }
+       .top{
+           height:15%;
+       }
+       .mid{
+           height:35%
+       }
+       .bottom{
+            height:50%
+       }
+    </style>
+</head>
+    <body>
+        <div class="row">
+            <div class="column right" style="background: rgba(175, 175, 175, 0.3);">
+                <div class="row top">
+                    <p style="font-size:25px; font-weight:700;"align=center>My Account</p>
+                </div>
+                <div class="row second" style="border:solid;" onclick="location.href='';" style="cursor:pointer;">
+                    <p style="font-size:25px;"align=center>Saved Recipes</p>
+                </div>
+                <div class="row third" style="border:solid;"  onclick="location.href='';" style="cursor:pointer;">
+                    <p align=center style="font-size:25px;">Favorites</p>
+                </div>
+                <div class="row forth" style="border:solid;" onclick="location.href='';" style="cursor:pointer;">
+                    <p align=center style="font-size:25px;">Privacy and Security</p>
+                </div>
+                <div class="row fifth" style="border:solid;" onclick="location.href='';" style="cursor:pointer;">
+                    <p align=center style="font-size:25px;">Settings</p>
+                </div>
+            </div>
+        <div class="column middle">
+            <div class="row top">
+                <p align=center style="font-weight:900;font-size:45px;">Samuel Madden</p>
+            </div>
+            <div class="row mid">
+                <img src="SpiceItUpLogo.png" alt="MiniLogo" style="width:100%;height:100%;">
+            </div>
+            <div class="row bottom">
+                <h3 align=center>Info</h3>
+                <p align=center>Samuel Madden is a cool collected badass with a taste for adventure. And sushi... Sam does NOT like green eggs and hams. He will not eat them in a 
+                    house or with a mouse or on a plane or in a train or in a box or with a fox. Nor here nor there. Not ANYWHERE!</p>
+            </div>
+    </div>
+    <div class="column right">
+
+    </div>
+        </div>
+    </body>
+</html>
