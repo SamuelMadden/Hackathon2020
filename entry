@@ -1,0 +1,23 @@
+'use strict';
+var http = require('http');
+var port = process.env.PORT || 1337;
+
+http.createServer(function (req, res) {
+    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.end('Hello World\n');
+    var emptyIngredients = [];
+    var numIngredint = window.prompt("Please enter the number of ingredients need to make the this recipes");
+    do {
+        var Ingredint = window.prompt("Please enter you ingredients.");
+        emptyIngredients.push(Ingredint);
+    } while (numIngredint >= 0, numIngredint -= 1);
+    var emptyProdure = [];
+    var numInstruction = window.prompt("Please enter the number of producres need to make the dish");
+    do {
+
+        var instruction = window.prompt("Please start entering your producer.");
+        emptyProdure.push(instruction)
+
+    } while (numInstruction >= 0, numInstruction -= 1);
+
+}).listen(port);
